@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error should match the snapshot with errorMessage 1`] = `
+<div
+  className="alert alert-danger"
+  role="alert"
+>
+  Request failed
+  : Network error
+</div>
+`;
+
+exports[`Error should match the snapshot without errorMessage 1`] = `
+<div
+  className="alert alert-danger"
+  role="alert"
+>
+  Request failed
+  
+</div>
+`;
